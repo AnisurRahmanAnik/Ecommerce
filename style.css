@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+i{
+    margin-right: 10px;
+}
+.btn-all{
+    color: #ffffff;
+    background: linear-gradient(45deg,#A4BC46,#85A019);
+    padding: 15px 40px;
+    border-radius: 15px;
+    display: inline-block;
+}
+section{
+    padding: 80px 0;
+}
+h2{
+font-family: 'Bebas Neue', cursive;
+font-style: normal;
+font-size: 48px;
+line-height: 48px;
+}
+.orange{
+    color: #FABE4C;
+}
+h3{
+    margin-left: 15px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.shop{
+    margin-left: 15%;
+}
+.custom-toggler{
+    border : red;
+}
+/*================================================ 
+HEADER AREA 
+===================================================*/
+header{
+    background: url('img/Rectangle\ 25.png');
+    background-size: cover;
+}
+.header-text{
+    width: 416px;
+}
+.nav-link{
+    color: #3C3C3C;
+    font-weight: bold;
+    margin-right: 30px;
+}
+h1{
+    font-family:'Bebas Neue', cursive;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 80px;
+}
+.color{
+    color: #363958;
+}
+.header-text p{    
+font-family: 'Roboto', sans-serif;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #3E3E3E;
+}
+/*===================================
+ PRODUCT SECTION 
+ =====================================*/
+ .products img{
+     height: 290px;
+     width: 290px;
+ }
+ .card{
+     border: 0;
+ }
+ .card-image{
+     background: #f1f1f1;
+     border-radius: 15px;
+     margin: 15px;
+     padding: 25px;
+ }
+ .card-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+ }
+ /*===================================
+ Service SECTION 
+ =====================================*/
+ .service .shadow{
+    padding: 15px;
+    border-radius: 10px;
+ }
+ .service .shadow img{
+    width: 78px;
+    height: 82px;
+}
+.navbar-toggler{
+    margin-left: auto;
+ 
+}
+@media (max-width: 575.98px) { 
+    .navbar-brand{
+        margin-top: 20px;
+        display: inline-block;
+    }
+ }
