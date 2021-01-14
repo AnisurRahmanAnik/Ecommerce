@@ -53,6 +53,10 @@ header{
 .header-text{
     width: 416px;
 }
+.logo{
+    height: 50px;
+    width: 290px;
+}
 .nav-link{
     color: #3C3C3C;
     font-weight: bold;
@@ -89,6 +93,8 @@ color: #3E3E3E;
      border-radius: 15px;
      margin: 15px;
      padding: 25px;
+     display: flex;
+     justify-content: center;
  }
  .card-title{
     font-style: normal;
@@ -111,9 +117,105 @@ color: #3E3E3E;
     margin-left: auto;
  
 }
+.shadow{
+    margin-bottom: 20px;
+}
+ /*===================================
+ Service SECTION 
+ =====================================*/
+ .offer{
+     background: radial-gradient(#fff,#ffd6d6);
+ }
+ .offer img{
+     height: 400px;
+ }
+ .offer small,.offer p{
+     color: #555555;
+ }
+  /*===================================
+ FOOTER SECTION 
+ =====================================*/
+ .footer{
+	background: #353535;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.footer p.para{
+	font-size: 16px;
+	margin: 30px 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.footer p{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.footer .icon i{
+	font-size: 17px;
+	background: #5bc5f4;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 2.2;
+	border-radius: 50%;
+}
+.footer h6{
+	margin: 10px 0 35px;
+	font-size: 20px;
+	color: #85A019;
+}
+.footer .footer-text p{
+	margin-bottom: 10px;
+	margin-left: 8px;
+}
+.footer .contact-footer .icon{
+	margin-top: 5px;
+}
+.footer a{
+	font-size: 16px;
+	color: #fff;
+}
+.footer a:hover{
+	color: #5bc5f4;
+}
+.footer a.team{
+	width: 40px;
+	display: inline;
+}
+.copyright{
+    background: #555555;
+	padding: 10px 0;
+}
+.copyright a{
+    color: #5bc5f4;
+}
+/*======================================================================= 
+RESPONSIVE CSS 
+===========================================================================*/
+/* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-    .navbar-brand{
-        margin-top: 20px;
-        display: inline-block;
+    h1{
+        font-size: 50px;
+    }
+    .header-text p{
+        font-size: 16px;
+        width: 200px;
+    }
+    .products h3{
+        margin-left: 40%;
     }
  }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .shadow{
+        text-align: center;
+    }
+  }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
